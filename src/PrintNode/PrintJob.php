@@ -27,9 +27,12 @@ class PrintJob extends Entity
     protected $content;
     protected $source;
     protected $filesize;
+    protected $pages;
+    protected $qty;
     protected $createTimestamp;
     protected $state;
     protected $expireAt;
+    protected $expireAfter;
     protected $options;
 
     public function foreignKeyEntityMap()
